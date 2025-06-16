@@ -14,7 +14,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       object-fit: cover;
-      background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url('https://img.freepik.com/free-photo/christmas-background-with-decorative-stars-flat-lay_169016-23368.jpg?ga=GA1.1.792322499.1749020018&semt=ais_hybrid&w=740')
+      background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url('https://img.freepik.com/free-photo/christmas-background-with-decorative-stars-flat-lay_169016-23368.jpg?ga=GA1.1.792322499.1749020018&semt=ais_hybrid&w=740')
      
     }
     h1{
