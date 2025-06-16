@@ -1,0 +1,62 @@
+body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        #bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            padding-top: 2%;
+            font-weight: 700;
+            font-family: cursive;
+            border-radius: 20%;
+        
+        }
+        button {
+            border-radius: 10%;
+            width: 10%;
+            
+        }
+        a{
+            text-decoration: none;
+            color: grey;
+            font-size: large;
+        }
+        h1{
+           padding-top: 20%;
+           color:aliceblue;
+           text-align: center;
+        }
+        .neon-button{
+            background-color: #000;
+            color: #fff;
+            padding: 15px 30px;
+            border:none;
+            border-radius: 5px;
+            font-size:16px;
+            cursor:pointer;
+            position:relative;
+            overflow: hidden;
+            transition: 0.5s;
+        }
+        .neon-button:hover {
+    color: #000;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 
+              0 0 20px rgba(0, 255, 255, 0.5), 
+              0 0 40px rgba(0, 255, 255, 0.3); 
+  background-color: #0ff; 
+}
+        

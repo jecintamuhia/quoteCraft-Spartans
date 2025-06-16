@@ -1,0 +1,145 @@
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      
+    }
+
+    body {
+      
+      color: #333;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url('https://img.freepik.com/free-photo/christmas-background-with-decorative-stars-flat-lay_169016-23368.jpg?ga=GA1.1.792322499.1749020018&semt=ais_hybrid&w=740')
+     
+    }
+    h1{
+        font-family: cursive;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      background: rgba(250, 248, 248, 0.459);
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+    .author{
+        color:#4a90e2
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label, select {
+      font-size: 1em;
+      margin-bottom: 15px;
+      display: block;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      background: #fff;
+      margin-bottom: 20px;
+    }
+
+    .quote-box {
+      border-left: 5px solid #4a90e2;
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .quote-box p {
+      font-size: 1.3em;
+      font-style: italic;
+    }
+
+    .author {
+      text-align: right;
+      font-size: 1em;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 100px;
+      padding: 15px;
+      margin-top: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      resize: vertical;
+      font-size: 1em;
+    }
+
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .buttons button,
+    #likeBtn,
+    .favorites button {
+      padding: 10px 20px;
+      background: #4a90e2;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    #likeBtn {
+      background: #ff4d4f;
+    }
+
+    #likeBtn:hover {
+      background: #cc3c3e;
+    }
+
+    .buttons button:hover,
+    .favorites button:hover {
+      background: #366cc9;
+    }
+
+    .history,
+    .favorites {
+      margin-top: 40px;
+    }
+
+    .history h3,
+    .favorites h3 {
+      margin-bottom: 10px;
+    }
+
+    .entry {
+      background: #f5f8ff;
+      border-left: 3px solid #4a90e2;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+
+    .entry button {
+      margin-top: 10px;
+      background: #ff6b6b;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .entry button:hover {
+      background: #e74c3c;
+    }
